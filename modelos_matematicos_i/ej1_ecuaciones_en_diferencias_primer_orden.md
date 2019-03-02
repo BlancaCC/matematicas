@@ -55,6 +55,26 @@ $F = 4.8 cc$
 Resultado el fármaco aplicado debería de ser $F = 4.8 cc$
 
  
+## Ejercicio 8 
+
+Para una explotación agrícola con abundancia de cereales se sabe que un número excesivo de cierta especie de aves resulta nocivo pero puede ser beneficioso en un número adecuado (como control de plagas). Se ha observado que,en ausencia de restricciones, la población de aves sigue un modelo de Malthus con tasa de crecimiento $\alpha$ = 0,5; es  decir, P_{n+1} = (1 + \alpha )P_n , n = 0, 1, . . .
+siendo $P_n$ el número de aves en el recuento n (dado en cientos). Si no se establecen limitaciones, la población presentará un aumento que afectará negativamente a la explotación agrícola por lo que se toman medidas correctoras mediante la colocación de trampas por toda la explotación que permitan un control adecuado del tamaño de la población. De esta forma la tasa de  recimiento de la población pasa a ser del tipo:
+$ \alpha = \alpha(P_n ) = 0,5 + \beta(1 − P_n ) $ con $ \beta > 0$ .
+Se pide:
+a) Bajo las medidas correctoras, deduzca la ecuación en diferencias que modela la dinámica de la población y calcule sus puntos de equilibrio.
+b) Analice la estabilidad de los puntos de equilibrio según los valores de $\beta$.
+c) Para $P_0 > 0 $ cualquiera, determine los valores de $\beta$ para los que la población no se extingue y se aproxima, a largo plazo, a un número no superior a 300 aves.
+
+### Solución 
+a) Modelo y puntos de quilibrio 
+El modelo que se nos presenta se corresponde con el modelo de Verhulst, por tanto 
+$ \frac{P_{n+1}- P_n}{P_n} = 0,5 + \beta(1 − P_n ) $, 
+alcanzará un punto de equilibrio cuando $ \frac{P_{n+1}P_n}{P_n} = 0$ despejando, el miembro derecho resulta que alcancanza un punto de quilibrio en: 
+
+$P_n = \frac{ 0,5 + \beta}{\beta}$ y la constantemente 0.
+
+(¿Si se multuplicara por $P_n$ en ambos miembros, la solución cuadrática tendría las mismas soluciones?)
 
 
+b) Analice la estabilidad de los puntos de equilibros según $\beta$
 
