@@ -24,7 +24,7 @@ Solución general: $T({2^m}) = C_1 -1^{2^m} +c_2 2^{2^m}$
 
 Ahora desacemos el cambio de variable  $n = 2^m $
 
-Solución general: $T({2^m}) = C_1 -1^{ \log_2 n} +c_2 n}$ 
+Solución general: $T({2^m}) = C_1 -1^{ \log_2 n} +c_2 n$ 
 
 Si calculáros la eficiencia sería $O(n)$
 
