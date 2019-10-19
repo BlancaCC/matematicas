@@ -31,3 +31,19 @@ podemos calcular la ecuación particular
 
 ```
 
+El comando `ratsimp(%o12)` simplificaría la ecuación
+`solve( %o12, x);` despejaría la x 
+
+`bc2(%o12, x=1,y=1);` también valdría como ic1, además valdría para ecuaciones de segundo orden.
+
+Podemos pintar un campo vectoria con la siguiente instrucción: 
+` plotdf( x^2+1, [trajectory_at, 0,0]);` trajectory_at te pinta la solución que pase por el punto (0,0)
+
+Para pintar una ecuacion, que hayamos quitado la constante
+
+```
+(%o23)                            atan(x) = y
+ x1:map('rhs,solve(%o23,x));
+(%o24)                             [tan(y)]
+(%i25) plot2d( x1,[y,0,1]);
+```
